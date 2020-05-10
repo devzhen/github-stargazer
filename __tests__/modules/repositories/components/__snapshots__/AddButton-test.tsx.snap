@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddButton repository component renders correctly 1`] = `
+<View
+  collapsable={false}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#eb9e38",
+        "borderRadius": 40,
+        "bottom": 25,
+        "height": 80,
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": 10,
+        "shadowColor": "rgba(0, 0, 0, 0.4)",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 2,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 4,
+        "width": 80,
+        "zIndex": 1000000,
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "testUri": "../../../src/modules/repositories/components/assets/ic_plus.png",
+      }
+    }
+    style={
+      Object {
+        "height": 26,
+        "width": 26,
+      }
+    }
+  />
+</View>
+`;

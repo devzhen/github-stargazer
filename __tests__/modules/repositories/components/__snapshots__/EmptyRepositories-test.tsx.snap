@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyRepositories repository component renders correctly, 1 case 1`] = `
+<View
+  offsetBottom={0}
+  offsetTop={30}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 0,
+        "marginTop": 30,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <Text
+    alignment="center"
+    color="#eb9e38"
+    onPress={[Function]}
+    size={14}
+    style={
+      Array [
+        Object {
+          "color": "#eb9e38",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+      ]
+    }
+    weight="bold"
+  >
+    User doesn't have repositories.
+  </Text>
+</View>
+`;
+
+exports[`EmptyRepositories repository component renders correctly, 2 case 1`] = `null`;
+
+exports[`EmptyRepositories repository component renders correctly, 3 case 1`] = `null`;
+
+exports[`EmptyRepositories repository component renders correctly, 4 case 1`] = `null`;

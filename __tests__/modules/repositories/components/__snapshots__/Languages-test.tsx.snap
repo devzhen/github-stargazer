@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Languages repository component renders correctly, 1 case 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    offsetBottom={30}
+    offsetTop={30}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 30,
+          "marginTop": 30,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#eb9e38"
+      onPress={[Function]}
+      size={17}
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      Languages:
+    </Text>
+  </View>
+  <ActivityIndicator
+    animating={true}
+    color="#eb9e38"
+    hidesWhenStopped={true}
+    size="small"
+    style={
+      Array [
+        Object {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Languages repository component renders correctly, 2 case 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    offsetBottom={30}
+    offsetTop={30}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 30,
+          "marginTop": 30,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#eb9e38"
+      onPress={[Function]}
+      size={17}
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      Languages:
+    </Text>
+  </View>
+  <View
+    offsetBottom={10}
+    offsetTop={0}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#383838"
+      onPress={[Function]}
+      size={14}
+      style={
+        Array [
+          Object {
+            "color": "#383838",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      Javascript: 20%
+    </Text>
+  </View>
+  <View
+    offsetBottom={10}
+    offsetTop={0}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#383838"
+      onPress={[Function]}
+      size={14}
+      style={
+        Array [
+          Object {
+            "color": "#383838",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      F#: 20%
+    </Text>
+  </View>
+  <View
+    offsetBottom={10}
+    offsetTop={0}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#383838"
+      onPress={[Function]}
+      size={14}
+      style={
+        Array [
+          Object {
+            "color": "#383838",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      C#: 20%
+    </Text>
+  </View>
+  <View
+    offsetBottom={10}
+    offsetTop={0}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#383838"
+      onPress={[Function]}
+      size={14}
+      style={
+        Array [
+          Object {
+            "color": "#383838",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      C++: 20%
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Languages repository component renders correctly, 3 case 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    offsetBottom={30}
+    offsetTop={30}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 30,
+          "marginTop": 30,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#eb9e38"
+      onPress={[Function]}
+      size={17}
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      Languages:
+    </Text>
+  </View>
+  <View
+    offsetBottom={10}
+    offsetTop={0}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      alignment="left"
+      color="#383838"
+      onPress={[Function]}
+      size={14}
+      style={
+        Array [
+          Object {
+            "color": "#383838",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          },
+        ]
+      }
+      weight="bold"
+    >
+      There are no languages yet.
+    </Text>
+  </View>
+</View>
+`;
