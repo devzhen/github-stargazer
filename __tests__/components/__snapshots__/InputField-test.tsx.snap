@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField common component renders correctly 1`] = `
+<View
+  offsetBottom={0}
+  offsetLeft={0}
+  offsetRight={0}
+  offsetTop={0}
+  style={
+    Array [
+      Object {
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    color="#383838"
+    fontSize="17px"
+    inputHeight={45}
+    isEmpty={false}
+    keyboardType="default"
+    onChangeText={[Function]}
+    onSubmitEditing={[Function]}
+    placeholder=""
+    placeholderTextColor="#9a9a9a"
+    rejectResponderTermination={true}
+    returnKeyType="next"
+    secureTextEntry={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#f6f7f8",
+          "borderColor": "#d3d3d3",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#383838",
+          "fontSize": 17,
+          "height": 45,
+          "paddingLeft": 19,
+          "paddingTop": 14,
+          "width": "100%",
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value="test"
+    withOffset={true}
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "paddingLeft": 19,
+          "position": "absolute",
+          "top": 2,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 12,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message common component renders correctly 1`] = `
+<View
+  offsetBottom={0}
+  offsetTop={0}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <Text
+    alignment="center"
+    color="#eb9e38"
+    onPress={[Function]}
+    size={14}
+    style={
+      Array [
+        Object {
+          "color": "#eb9e38",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+      ]
+    }
+    weight="bold"
+  >
+    Please, provide you credentials.
+  </Text>
+</View>
+`;
+
+exports[`Message common component renders correctly with offsetBottom 1`] = `
+<View
+  offsetBottom={22}
+  offsetTop={0}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 22,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <Text
+    alignment="center"
+    color="#eb9e38"
+    onPress={[Function]}
+    size={14}
+    style={
+      Array [
+        Object {
+          "color": "#eb9e38",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+      ]
+    }
+    weight="bold"
+  >
+    Please, provide you credentials.
+  </Text>
+</View>
+`;
+
+exports[`Message common component renders correctly with offsetTop 1`] = `
+<View
+  offsetBottom={0}
+  offsetTop={22}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 0,
+        "marginTop": 22,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <Text
+    alignment="center"
+    color="#eb9e38"
+    onPress={[Function]}
+    size={14}
+    style={
+      Array [
+        Object {
+          "color": "#eb9e38",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+      ]
+    }
+    weight="bold"
+  >
+    Please, provide you credentials.
+  </Text>
+</View>
+`;
