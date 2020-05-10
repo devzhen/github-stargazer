@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmModal repository component renders correctly, 1 case 1`] = `
+Array [
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 5,
+            "marginBottom": "auto",
+            "marginHorizontal": 23,
+            "marginTop": "auto",
+            "paddingBottom": 30,
+            "paddingLeft": 30,
+            "paddingRight": 30,
+            "paddingTop": 30,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#acacac",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 5,
+            },
+          ]
+        }
+      >
+        test
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 0,
+              "marginTop": 15,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eb9e38",
+                "fontSize": 16,
+                "marginBottom": 15,
+              },
+            ]
+          }
+        >
+          test
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#383838",
+                "fontSize": 16,
+                "marginBottom": 15,
+              },
+            ]
+          }
+        >
+          test
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "height": 44,
+              "justifyContent": "space-between",
+              "marginTop": 20,
+              "paddingHorizontal": 20,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#d3d3d3",
+              "borderRadius": 4,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": "100%",
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            labelSize={17}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 17,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Cancel
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "width": 20,
+              },
+            ]
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#eb9e38",
+              "borderRadius": 4,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": "100%",
+              "justifyContent": "center",
+              "opacity": 0.7,
+            }
+          }
+        >
+          <ActivityIndicator
+            animating={true}
+            color="#fff"
+            hidesWhenStopped={true}
+            size="small"
+          />
+        </View>
+      </View>
+    </View>
+  </Modal>,
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 100000,
+        },
+      ]
+    }
+  />,
+]
+`;
+
+exports[`ConfirmModal repository component renders correctly, 2 case 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 5,
+          "marginBottom": "auto",
+          "marginHorizontal": 23,
+          "marginTop": "auto",
+          "paddingBottom": 30,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 30,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#acacac",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 5,
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 0,
+            "marginTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#eb9e38",
+              "fontSize": 16,
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        test
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#383838",
+              "fontSize": 16,
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        test
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "height": 44,
+            "justifyContent": "space-between",
+            "marginTop": 20,
+            "paddingHorizontal": 20,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#d3d3d3",
+            "borderRadius": 4,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          labelSize={17}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "width": 20,
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#eb9e38",
+            "borderRadius": 4,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 0.7,
+          }
+        }
+      >
+        <ActivityIndicator
+          animating={true}
+          color="#fff"
+          hidesWhenStopped={true}
+          size="small"
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`ConfirmModal repository component renders correctly, 3 case 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 5,
+          "marginBottom": "auto",
+          "marginHorizontal": 23,
+          "marginTop": "auto",
+          "paddingBottom": 30,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 30,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#acacac",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 5,
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 0,
+            "marginTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#eb9e38",
+              "fontSize": 16,
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        test
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#383838",
+              "fontSize": 16,
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        test
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "height": 44,
+            "justifyContent": "space-between",
+            "marginTop": 20,
+            "paddingHorizontal": 20,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#d3d3d3",
+            "borderRadius": 4,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          labelSize={17}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "width": 20,
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#eb9e38",
+            "borderRadius": 4,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          labelSize={17}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Ok
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

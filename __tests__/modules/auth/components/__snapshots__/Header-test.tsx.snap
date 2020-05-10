@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header auth component renders correctly 1`] = `
+<View
+  bgColor="#fff"
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "#fff",
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "paddingBottom": 12,
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 2,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 2,
+        "width": "100%",
+        "zIndex": 2,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "fontWeight": "500",
+        },
+      ]
+    }
+  >
+    Login
+  </Text>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flexDirection": "row",
+        "height": 64,
+        "left": 16,
+        "opacity": 1,
+        "paddingBottom": 12,
+        "position": "absolute",
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;

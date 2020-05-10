@@ -15,6 +15,7 @@ module.exports = {
           '@helpers': './src/helpers',
           '@services': './src/services',
           '@theme': './src/theme',
+          '@testHelpers': './testHelpers',
         },
       },
     ],

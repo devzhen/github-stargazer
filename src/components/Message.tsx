@@ -76,15 +76,15 @@ const Container = styled.View<{
   clientRight?: number;
   clientBottom?: number;
 }>`
-  margin-top: ${(props) => props.offsetTop};
-  margin-bottom: ${(props) => props.offsetBottom};
+  margin-top: ${(props) => props.offsetTop}px;
+  margin-bottom: ${(props) => props.offsetBottom}px;
   align-items: center;
   justify-content: center;
   ${(props) => props.bgColor && `background-color: ${props.bgColor}`};
-  padding-top: ${(props) => props.clientTop || 0};
-  padding-left: ${(props) => props.clientLeft || 0};
-  padding-right: ${(props) => props.clientRight || 0};
-  padding-bottom: ${(props) => props.clientBottom || 0};
+  padding-top: ${(props) => props.clientTop || 0}px;
+  padding-left: ${(props) => props.clientLeft || 0}px;
+  padding-right: ${(props) => props.clientRight || 0}px;
+  padding-bottom: ${(props) => props.clientBottom || 0}px;
 `;
 
 const Text = styled.Text<{
@@ -94,7 +94,7 @@ const Text = styled.Text<{
   weight?: string | number;
   lineHeight?: number;
 }>`
-  font-size: ${(props) => props.size};
+  font-size: ${(props) => props.size}px;
   color: ${(props) => props.color};
   text-align: ${(props) => props.alignment};
   font-weight: ${(props) => props.weight};

@@ -60,12 +60,12 @@ const Wrapper = styled.TouchableOpacity<{ bgColor: string; disabled: boolean }>`
   ${(props) =>
     props.bgColor === ButtonBackground.Gray &&
     `background-color: ${props.theme.colors.gray}`}
-  border-radius: 4;
+  border-radius: 4px;
   ${(props) => props.disabled && 'opacity: 0.7'};
 `;
 
 const Label = styled.Text<{ labelSize: number }>`
-  font-size: ${(props) => props.labelSize};
+  font-size: ${(props) => props.labelSize}px;
   text-align: center;
   color: #fff;
 `;

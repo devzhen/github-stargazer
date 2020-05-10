@@ -111,14 +111,14 @@ Section.defaultProps = {
 
 const Container = styled.View<SectionProps>`
   flex-direction: ${(props) => (props.directionRow ? 'row' : 'column')};
-  margin-top: ${(props) => props.offsetTop};
-  margin-bottom: ${(props) => props.offsetBottom};
-  margin-left: ${(props) => props.offsetLeft};
-  margin-right: ${(props) => props.offsetRight};
-  padding-left: ${(props) => props.clientLeft};
-  padding-right: ${(props) => props.clientRight};
-  padding-top: ${(props) => props.clientTop};
-  padding-bottom: ${(props) => props.clientBottom};
+  margin-top: ${(props) => props.offsetTop}px;
+  margin-bottom: ${(props) => props.offsetBottom}px;
+  margin-left: ${(props) => props.offsetLeft}px;
+  margin-right: ${(props) => props.offsetRight}px;
+  padding-left: ${(props) => props.clientLeft}px;
+  padding-right: ${(props) => props.clientRight}px;
+  padding-top: ${(props) => props.clientTop}px;
+  padding-bottom: ${(props) => props.clientBottom}px;
   ${(props) => props.fluid && 'flex: 1'};
   ${(props) => props.stretchContent && 'justify-content: space-between;'};
   ${(props) => props.centerContentHorizontally && 'align-items: center;'};
@@ -126,15 +126,16 @@ const Container = styled.View<SectionProps>`
   ${(props) => props.flexEndContentVertically && 'justify-content: flex-end;'};
   ${(props) => props.width && `width: ${props.width}`};
   ${(props) => props.height && `height: ${props.height}`};
-  ${(props) => props.borderRadius && `border-radius: ${props.borderRadius}`};
+  ${(props) => props.borderRadius && `border-radius: ${props.borderRadius}px`};
   ${(props) => props.borderColor && `border-color: ${props.borderColor}`};
   ${(props) => props.borderColor && `border-width: 1`};
   ${(props) =>
-    props.borderTopWidth && `border-top-width: ${props.borderTopWidth}`};
+    props.borderTopWidth && `border-top-width: ${props.borderTopWidth}px`};
   ${(props) =>
-    props.borderLeftWidth && `border-left-width: ${props.borderLeftWidth}`};
+    props.borderLeftWidth && `border-left-width: ${props.borderLeftWidth}px`};
   ${(props) =>
-    props.borderRightWidth && `border-right-width: ${props.borderRightWidth}`};
+    props.borderRightWidth &&
+    `border-right-width: ${props.borderRightWidth}px`};
   ${(props) =>
     props.borderBottomWidth &&
     `border-bottom-width: ${props.borderBottomWidth}`};

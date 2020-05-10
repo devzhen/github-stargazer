@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header repository component renders correctly, 1 case 1`] = `
+<View
+  bgColor="#fff"
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#d3d3d3",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "paddingBottom": 12,
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 2,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 2,
+        "width": "100%",
+        "zIndex": 2,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "fontWeight": "500",
+        },
+      ]
+    }
+  >
+    Repositories
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 64,
+        "opacity": 1,
+        "paddingRight": 16,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 18,
+            "fontWeight": "500",
+          },
+        ]
+      }
+    >
+      Logout
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Header repository component renders correctly, 2 case 1`] = `
+<View
+  bgColor="#fff"
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#d3d3d3",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "paddingBottom": 12,
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 2,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 2,
+        "width": "100%",
+        "zIndex": 2,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "fontWeight": "500",
+        },
+      ]
+    }
+  >
+    Add
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 64,
+        "opacity": 1,
+        "paddingRight": 16,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 18,
+            "fontWeight": "500",
+          },
+        ]
+      }
+    >
+      Logout
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Header repository component renders correctly, 3 case 1`] = `
+<View
+  bgColor="#fff"
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#d3d3d3",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "paddingBottom": 12,
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 2,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 2,
+        "width": "100%",
+        "zIndex": 2,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "fontWeight": "500",
+        },
+      ]
+    }
+  >
+    Details
+  </Text>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 64,
+        "opacity": 1,
+        "paddingRight": 16,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#eb9e38",
+            "fontSize": 18,
+            "fontWeight": "500",
+          },
+        ]
+      }
+    >
+      Logout
+    </Text>
+  </View>
+</View>
+`;

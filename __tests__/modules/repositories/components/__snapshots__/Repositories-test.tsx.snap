@@ -1,0 +1,672 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repositories repository component renders correctly, 1 case 1`] = `null`;
+
+exports[`Repositories repository component renders correctly, 2 case 1`] = `
+<View
+  bgColor="#fff"
+  borderColor={null}
+  borderRadius={0}
+  centerContentHorizontally={false}
+  centerContentVertically={false}
+  clientBottom={0}
+  clientLeft={0}
+  clientRight={0}
+  clientTop={0}
+  flexStartContentHorizontally={false}
+  fluid={true}
+  offsetBottom={0}
+  offsetLeft={0}
+  offsetRight={0}
+  offsetTop={0}
+  stretchContent={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+      Object {},
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "paddingBottom": 100,
+        "paddingTop": 20,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "name": "1",
+        },
+        Object {
+          "id": 2,
+          "name": "2",
+        },
+        Object {
+          "id": 3,
+          "name": "3",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={
+      Array [
+        Object {
+          "id": 1,
+          "name": "1",
+        },
+        Object {
+          "id": 2,
+          "name": "2",
+        },
+        Object {
+          "id": 3,
+          "name": "3",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onLayout={[Function]}
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "bottom": 0,
+                "flexDirection": "row-reverse",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "translateX": -10000,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "height": 50,
+                    "justifyContent": "center",
+                    "width": 26,
+                  },
+                ]
+              }
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../src/modules/repositories/components/assets/ic_delete.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+            </View>
+            <View
+              onLayout={[Function]}
+            />
+          </View>
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            pointerEvents="auto"
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "translateX": -0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 30,
+                      "paddingHorizontal": 20,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "borderColor": "#d3d3d3",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "flexDirection": "row",
+                        "height": 50,
+                        "paddingLeft": 14,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "flex-start",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "center",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#383838",
+                            "fontSize": 17,
+                            "fontWeight": "600",
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      1
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": "100%",
+                          "justifyContent": "center",
+                          "width": 50,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#eb9e38",
+                            "fontSize": 17,
+                            "fontWeight": "normal",
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      0
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onLayout={[Function]}
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "bottom": 0,
+                "flexDirection": "row-reverse",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "translateX": -10000,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "height": 50,
+                    "justifyContent": "center",
+                    "width": 26,
+                  },
+                ]
+              }
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../src/modules/repositories/components/assets/ic_delete.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+            </View>
+            <View
+              onLayout={[Function]}
+            />
+          </View>
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            pointerEvents="auto"
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "translateX": -0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 30,
+                      "paddingHorizontal": 20,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "borderColor": "#d3d3d3",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "flexDirection": "row",
+                        "height": 50,
+                        "paddingLeft": 14,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "flex-start",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "center",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#383838",
+                            "fontSize": 17,
+                            "fontWeight": "600",
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      2
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": "100%",
+                          "justifyContent": "center",
+                          "width": 50,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#eb9e38",
+                            "fontSize": 17,
+                            "fontWeight": "normal",
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      0
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onLayout={[Function]}
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "bottom": 0,
+                "flexDirection": "row-reverse",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "transform": Array [
+                  Object {
+                    "translateX": -10000,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "height": 50,
+                    "justifyContent": "center",
+                    "width": 26,
+                  },
+                ]
+              }
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../src/modules/repositories/components/assets/ic_delete.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+            </View>
+            <View
+              onLayout={[Function]}
+            />
+          </View>
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            pointerEvents="auto"
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "translateX": -0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 30,
+                      "paddingHorizontal": 20,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "borderColor": "#d3d3d3",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "flexDirection": "row",
+                        "height": 50,
+                        "paddingLeft": 14,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "flex-start",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "center",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#383838",
+                            "fontSize": 17,
+                            "fontWeight": "600",
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      3
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": "100%",
+                          "justifyContent": "center",
+                          "width": 50,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#eb9e38",
+                            "fontSize": 17,
+                            "fontWeight": "normal",
+                            "lineHeight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      0
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
