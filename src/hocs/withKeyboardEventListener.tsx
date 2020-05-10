@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Keyboard } from 'react-native';
 
-const withKeyboardEventListener = (WrappedComponent: any) =>
-  class withKeyboardEventListenerHoc extends Component<any, any> {
+const withKeyboardListener = (WrappedComponent: any) =>
+  class WithKeyboardListenerHoc extends Component<any, any> {
     constructor(props: any) {
       super(props);
 
@@ -24,7 +24,7 @@ const withKeyboardEventListener = (WrappedComponent: any) =>
     }
 
     handleKeyboardShowEvent = (event: any) => {
-      const { height } = event.endCoordinates;
+      const height = event.endCoordinates.height;
 
       if (this.state.keyboardHeight === height) {
         return;
@@ -51,4 +51,4 @@ const withKeyboardEventListener = (WrappedComponent: any) =>
     }
   };
 
-export default withKeyboardEventListener;
+export default withKeyboardListener;

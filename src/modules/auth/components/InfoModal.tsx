@@ -34,39 +34,39 @@ const InfoModal = ({ onPress, isVisible, header, message }: InfoModalProps) => (
 );
 
 const Container = styled.View`
-  margin-horizontal: 23;
+  margin-horizontal: 23px;
   margin-top: auto;
   margin-bottom: auto;
   padding: 30px;
   background-color: #fff;
-  border-radius: 5;
+  border-radius: 5px;
 `;
 
 const Footer = styled.View`
   width: 100%;
-  height: 44;
-  padding-horizontal: 20;
+  height: 44px;
+  padding-horizontal: 20px;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20;
+  margin-top: 20px;
 `;
 
 const Header = styled.Text`
-  font-size: 18;
+  font-size: 18px;
   font-weight: bold;
   color: #acacac;
-  margin-bottom: 5;
+  margin-bottom: 5px;
 `;
 
 const Body = styled.View`
-  margin-top: 15;
+  margin-top: 15px;
   margin-bottom: 0;
 `;
 
 const Message = styled.Text`
-  font-size: 16;
+  font-size: 16px;
   color: ${(props) => props.theme.colors.orange};
-  margin-bottom: 15;
+  margin-bottom: 15px;
 `;
 
 const Background = styled.View`
