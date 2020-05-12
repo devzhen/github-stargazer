@@ -13,7 +13,7 @@ $ yarn
 
 
 
-### IOS developemnt:
+### IOS development:
 
 ```sh
 $ cd ios
@@ -39,7 +39,7 @@ $ open GithubStargazer.xcworkspace // Open in XCode
 Press `build` button in `XCode`
 
 
-### Android developemnt:
+### Android development:
 
 Start metro bundler
 ```sh
