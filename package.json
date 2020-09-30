@@ -7,6 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
+    "test:circle": "jest --maxWorkers=3",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "android:install:debug": "cd android && ./gradlew installDebug && adb reverse tcp:8081 tcp:8081"
   },
